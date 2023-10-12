@@ -1,16 +1,21 @@
+* {
+    margin: 0;
+}
+
 body {
-    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 1s;
+    transition: 1s linear;
     background: rgb(108, 255, 243);
 }
 
 span {
     background: black;
     color: whitesmoke;
-    padding: 15px 30px;
+    padding: 15px 20px;
     border-radius: 10px;
     font-size: 1.3rem;
 }
