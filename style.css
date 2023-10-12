@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    background: rgb(108, 255, 243);
+}
+
+span {
+    background: black;
+    color: whitesmoke;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
